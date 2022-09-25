@@ -1,12 +1,12 @@
 import React from 'react'
 import './locationcard.css'
 
-export const LocationCard = () => {
+export const LocationCard = ({ locationName, places }) => {
   return (
     <div className='loc-card'>
         <div className="city-name">
-            <h4>Rajpur</h4>
-            <p>180 places</p>
+            <h4>{locationName}</h4>
+            <p>{places}</p>
         </div>
         <div className="sign">
         <i class="fa fa-angle-right"></i>

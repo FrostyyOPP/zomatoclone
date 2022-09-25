@@ -10,15 +10,16 @@ export const Locations = () => {
         </h2>
 
         <div className="locations-card">
-            <LocationCard />
-            <LocationCard />
-            <LocationCard />
-            <LocationCard />
-            <LocationCard />
-            <LocationCard />
-            <LocationCard />
-            <LocationCard />
-            <LocationCard />
+            <LocationCard locationName = {'Rajpur'} places={'180 places'}/>
+            <LocationCard locationName = {'Jakhan'} places={'180 places'}/>
+            <LocationCard locationName = {'Hathibarwala salwala'} places={'180 places'}/>
+            <LocationCard locationName = {'Chukkuwala'} places={'180 places'}/>
+            <LocationCard locationName = {'Karanpur'} places={'180 places'}/>
+            <LocationCard locationName = {'Balupur'} places={'180 places'}/>
+            <LocationCard locationName = {'Paltan Bazaar'} places={'180 places'}/>
+            <LocationCard locationName = {'Balliwala'} places={'180 places'}/>
+            <LocationCard locationName = {'See More'} />
+          
         </div>
     </div>
   )

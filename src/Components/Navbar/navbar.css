@@ -1,0 +1,22 @@
+.top-nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.navlinks{
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+.navlink{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 23px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+.navlink:hover{
+    color: white;
+}

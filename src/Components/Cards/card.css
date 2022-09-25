@@ -1,0 +1,43 @@
+.card-section{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.sec-card{
+    background: url(https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 260px;
+    position: relative;
+    border-radius: 10px;
+    border: 0.2px solid lightgray;
+    margin: 20px;
+    transition: ease-out 0.3s;
+    cursor: pointer;
+
+}
+.sec-body{
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.card-head{
+    font-size:25px;
+}
+.card-text{
+    font-size: 15px;
+    font-weight: 200;
+}
+.sec-2{
+    background-image: url(https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*);
+}
+.sec-card:hover{
+    transform: scale(1.05); 
+}

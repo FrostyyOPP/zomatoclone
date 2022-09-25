@@ -1,0 +1,8 @@
+.locations{
+    margin-top: 50px;
+}
+.locations-card{
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}

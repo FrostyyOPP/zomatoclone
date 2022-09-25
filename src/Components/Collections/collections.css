@@ -1,0 +1,6 @@
+.collect-cards{
+    display: flex;
+}
+.collections{
+   cursor: pointer;
+}

@@ -1,5 +1,5 @@
 .search{
-    max-width: 55%;
-    margin-left: 20em;
-    margin-top: 30px;
+    justify-content: center;
+   text-align: center;
+   width: 50%;
 }

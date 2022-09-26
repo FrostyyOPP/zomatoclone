@@ -3,7 +3,7 @@ import './search.css'
 
 export const Search = () => {
   return (
-    <div className="input-group input-group-lg search">
+    <div className="input-group input-group-lg search position-absolute top-50 start-50 translate-middle">
       <span className="input-group-text" id="inputGroup-sizing-lg">
         <span className="material-symbols-outlined">
         search

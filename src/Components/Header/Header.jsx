@@ -12,7 +12,7 @@ export const Header = () => {
             <h1 className='logo-text'>Zomato Clone</h1>
             <h2 className='sub-head'>Discover the best food & drinks in your area</h2>
         </div>
-        <Search />
+        <Search /> 
         </div>
     )
 }

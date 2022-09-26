@@ -5,3 +5,45 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/* Login */
+.modal{
+    display: none;
+}
+.divider-or{
+    position: absolute;
+    right: 50%;
+    top: 44.5%;
+    background-color: white;
+    z-index: 1;
+    padding: 3px;
+}
+.btn-login{
+    color: black;
+    font-size: 18px;
+}
+.fa-envelope{
+    color:#b02a37 ;
+    margin-right: 5px;
+}
+.fa-google{
+    color:#b02a37 ;
+    margin-right: 5px;
+}
+.modal-footer{
+justify-content: left;
+}
+.ca-link{
+    text-decoration: none;
+    color: #b02a37;
+}
+.ca-link:hover{
+    color: #b02a37;
+}
+.dropdown-toggle{
+    font-size: 20px;
+}
+.form-control{
+    width: 20px;
+    font-size: 20px;
+}

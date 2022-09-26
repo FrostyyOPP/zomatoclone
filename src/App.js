@@ -5,16 +5,18 @@ import { Explore } from './Components/Explore/Explore';
 import { Footer } from './Components/Footer/Footer';
 import { Header } from './Components/Header/Header'
 import { Locations } from './Components/Locations/Locations';
+import { Login } from './Components/Login/Login';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <div className='container'>
 
-      <Card />
-      <Collection />
-      <Locations />
+      <div className='container'>
+        <Login />
+        <Card />
+        <Collection />
+        <Locations />
       </div>
       <Cta />
       <div className='container'>

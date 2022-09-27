@@ -4,7 +4,7 @@ import './card.css'
 export const Card = () => {
     return (
         <div className='card-section'>
-            <div className="sec-card">
+            <div className="sec-card" onClick={'/OrderOnline'}>
                 <div className="sec-body">
                     <h2 className='card-head'>Order Online</h2>
                     <p className='card-text'>Stay home and order your doorstep</p>

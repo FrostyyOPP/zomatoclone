@@ -1,27 +1,27 @@
-import { Card } from './Components/Cards/Card';
-import { Collection } from './Components/Collections/Collection';
-import { Cta } from './Components/CTA/Cta';
-import { Explore } from './Components/Explore/Explore';
 import { Footer } from './Components/Footer/Footer';
-import { Header } from './Components/Header/Header'
-import { Locations } from './Components/Locations/Locations';
-import { Login } from './Components/Login/Login';
+import { Explore } from './Components/Explore/Explore';
+import { Home } from './Pages/Home/Home';
+
+
+
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { OrderOnline } from './Pages/OrderOnline/OrderOnline';
+
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
 
-      <div className='container'>
-        <Login />
-        <Card />
-        <Collection />
-        <Locations />
-      </div>
-      <Cta />
-      <div className='container'>
-        <Explore />
-      </div>
+      <BrowserRouter>
+      <Routes>
+        <Route index element ={<Home />} />
+        <Route path='order-online' element ={<OrderOnline />} />
+      </Routes>
+      </BrowserRouter>
+    
+      <Explore />
       <Footer />
     </div>
   );

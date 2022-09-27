@@ -11,13 +11,13 @@ export const Locations = () => {
 
         <div className="locations-card">
             <LocationCard locationName = {'Rajpur'} places={'180 places'}/>
-            <LocationCard locationName = {'Jakhan'} places={'180 places'}/>
-            <LocationCard locationName = {'Hathibarwala salwala'} places={'180 places'}/>
-            <LocationCard locationName = {'Chukkuwala'} places={'180 places'}/>
-            <LocationCard locationName = {'Karanpur'} places={'180 places'}/>
-            <LocationCard locationName = {'Balupur'} places={'180 places'}/>
-            <LocationCard locationName = {'Paltan Bazaar'} places={'180 places'}/>
-            <LocationCard locationName = {'Balliwala'} places={'180 places'}/>
+            <LocationCard locationName = {'Jakhan'} places={'179 places'}/>
+            <LocationCard locationName = {'Hathibarwala salwala'} places={'108 places'}/>
+            <LocationCard locationName = {'Chukkuwala'} places={'96 places'}/>
+            <LocationCard locationName = {'Karanpur'} places={'194 places'}/>
+            <LocationCard locationName = {'Balupur'} places={'133 places'}/>
+            <LocationCard locationName = {'Paltan Bazaar'} places={'136 places'}/>
+            <LocationCard locationName = {'Balliwala'} places={'113 places'}/>
             <LocationCard locationName = {'See More'} />
           
         </div>

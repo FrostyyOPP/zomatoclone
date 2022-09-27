@@ -1,6 +1,7 @@
 import React from 'react'
 import './navbar.css';
 
+
 export const Navbar = () => {
 
   return (
@@ -20,7 +21,7 @@ export const Navbar = () => {
                     <a href="" className='navlink'>Add Restaurant</a>
                 </li>
                 <li>
-                    <a href="" className='navlink'>Log in</a>
+                    <a href ='' className='navlink'>Log in</a>
                 </li>
                 <li>
                     <a href="" className='navlink'>Sign up</a>

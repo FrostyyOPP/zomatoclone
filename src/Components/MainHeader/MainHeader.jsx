@@ -4,7 +4,7 @@ import { Navbar } from '../Navbar/Navbar'
 import './header.css';
 import { Search } from '../Search/Search'
 
-export const Header = () => {
+export const MainHeader = () => {
     return (
         <div className='header'>
         <Navbar />

@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
 
 body{
-    font-family: Okra, Helvetica, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 /* Login */
 .modal{
-    display: none;
+    display: inline;
 }
 .divider-or{
     position: absolute;
@@ -43,7 +44,12 @@ justify-content: left;
 .dropdown-toggle{
     font-size: 20px;
 }
-.form-control{
-    width: 20px;
-    font-size: 20px;
+
+
+/* Restaurants */
+
+.resto-cards{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }

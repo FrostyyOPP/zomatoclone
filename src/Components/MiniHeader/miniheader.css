@@ -1,0 +1,7 @@
+.small-header{
+    display: flex;
+}
+.logo-text{
+    font-size: 45px;
+    font-weight: 900;
+}

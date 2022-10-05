@@ -41,3 +41,7 @@
 .sec-card:hover{
     transform: scale(1.05); 
 }
+.link{
+    text-decoration: none;
+    color: black;
+}

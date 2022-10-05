@@ -1,0 +1,24 @@
+.slider-head{
+    width: 160px;
+
+    border-radius: 100px;
+}
+.slider-body{
+    font-size: 20px;
+    text-align: center;
+}
+.slider{
+    text-align: center;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.sliders{
+    margin-top: 30px;
+    background: #f8f8f8;
+}
+.head-slides{
+    margin-left: 120px;
+    margin-bottom: 20px;
+}

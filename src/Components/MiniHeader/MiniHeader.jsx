@@ -5,16 +5,17 @@ import { SmallNav } from '../SmallNav/SmallNav'
 
 export const MiniHeader = () => {
   return (
-    <div className='container small-header'>
-        <div className="mini-logo">
-            <h2 className='logo-text'>Zomato Clone</h2>
-        </div>
-        <div className="search">
-            {/* <Search /> */}
-        </div>
-        <div className="small-nav">
-            <SmallNav />
-        </div>
+    <div className='small-header'>
+      <div className="mini-logo">
+        <a href="/" className='link'>
+        <h2 className='logo-text'>Zomato</h2>
+        </a>
+        <Search />
+      </div>
+
+      <div className="small-nav">
+        <SmallNav />
+      </div>
     </div>
   )
 }

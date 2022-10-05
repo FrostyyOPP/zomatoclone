@@ -1,4 +1,6 @@
 import React from 'react'
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css'
 
 export const Login = () => {
     return (
@@ -8,7 +10,7 @@ export const Login = () => {
                     <div class="modal-content">
                         <div class="modal-header">
                             <h2 class="modal-title">Login</h2>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
                         </div>
                         <div class="modal-body mt-2">
                             <div class="input-group mb-3">
@@ -42,6 +44,10 @@ export const Login = () => {
                     </div>
                 </div>
             </div>
+
+
+
+
         </div>
     )
 }
